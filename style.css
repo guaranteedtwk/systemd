@@ -1,0 +1,86 @@
+html
+{
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body
+{
+  display: flex;
+  margin: 0;
+}
+
+button, input
+{
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-style: outset;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: monospace;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+button:active, input:active
+{
+  background: none;
+  color: white;
+  border: 1px solid white;
+  border-style: inset;
+}
+
+#screen
+{
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 0;
+}
+
+#menubutton
+{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  user-select: none;
+  cursor: pointer;
+  border-style: outset;
+}
+
+#menubutton:active
+{
+  border-style: inset;
+}
+
+#menu
+{
+  z-index: 11;
+  position: absolute;
+  top: 35px;
+  left: 5px;
+  padding: 10px;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#commands
+{
+  z-index: 10;
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+#commands button
+{
+  padding: 10px;
+}
