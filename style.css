@@ -37,7 +37,6 @@ button:active, input:active
 
 #screen
 {
-  border: 1px solid white;
   border-radius: 5px;
   margin: 0;
 }
